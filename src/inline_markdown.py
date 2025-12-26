@@ -1,6 +1,6 @@
 import re
 
-from src.textnode import TextType, TextNode
+from textnode import TextType, TextNode
 
 def text_to_textnodes(text):
     nodes = [TextNode(text, TextType.TEXT)]
